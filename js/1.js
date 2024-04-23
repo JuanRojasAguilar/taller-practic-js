@@ -9,6 +9,5 @@ const contrasenaValida = (passwordToValidate) => {
 }
 
 contrasenaValida("patitos");
-
 contrasenaValida("2Fj(jjbFsuj");
 

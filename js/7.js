@@ -1,6 +1,6 @@
 const sumarRango = (numeroInicial, numeroFinal) => {
   let res = 0;
-  for(numeroInicial; numeroInicial = numeroFinal; numeroInicial++) {
+    for(numeroInicial; numeroInicial <= numeroFinal; ++numeroInicial) {
     res += numeroInicial
   }
   return res;
